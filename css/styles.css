@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1, .hero p {
+    margin: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
